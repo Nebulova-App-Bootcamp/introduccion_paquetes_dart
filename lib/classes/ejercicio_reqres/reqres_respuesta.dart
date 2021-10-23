@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:introduccion_paquetes_dart/classes/persona.dart';
+import 'package:explication_http/classes/ejercicio_reqres/persona.dart';
 
 class ReqResRespuesta {
   ReqResRespuesta({

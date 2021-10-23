@@ -94,7 +94,7 @@ class Pais {
             : List<double>.from(json["latlng"].map((x) => x.toDouble())),
         demonym: json["demonym"],
         area: json["area"],
-        gini: json["gini"].toDouble(),
+        gini: json["gini"],
         timezones: json["timezones"] == null
             ? null
             : List<String>.from(json["timezones"].map((x) => x)),

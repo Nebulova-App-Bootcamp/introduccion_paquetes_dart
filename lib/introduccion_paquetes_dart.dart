@@ -26,8 +26,8 @@ void getReqRespService() async {
   });
 }
 
-void getPais() {
-  var url = Uri.parse("https://restcountries.com/v2/name/col");
+void getPais({required String pais}) {
+  var url = Uri.parse("https://restcountries.com/v2/name/$pais");
 
   http.get(url).then((res) {
     print((json.decode(res.body) as List).first);
